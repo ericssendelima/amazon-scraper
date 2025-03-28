@@ -1,9 +1,10 @@
 # 📦 Amazon Scraper
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Vite](https://img.shields.io/badge/vite-2.9.9-brightgreen.svg)](https://vitejs.dev/)
-[![Express](https://img.shields.io/badge/express-4.18.1-blue.svg)](https://expressjs.com/)
+[![Bun](https://img.shields.io/badge/bun-0.1.0-blue.svg)](https://bun.sh/)
 [![Node.js](https://img.shields.io/badge/node.js-14.17.0-green.svg)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/express-4.18.1-blue.svg)](https://expressjs.com/)
+[![Vite](https://img.shields.io/badge/vite-2.9.9-brightgreen.svg)](https://vitejs.dev/)
 [![GitHub stars](https://img.shields.io/github/stars/ericssendelima/amazon-scraper.svg?style=social&label=Star)](https://github.com/ericssendelima/amazon-scraper)
 
 ## 📝 Descrição
@@ -33,6 +34,10 @@ amazon-scraper/
 ```
 
 ## 🚀 Configuração para rodar o projeto localmente
+
+> **Observação:** Supondo que você tenha o Bun e o Node.js instalados na sua máquina. Caso contrário, instale-os primeiro:
+> - [Bun](https://bun.sh/)
+> - [Node.js](https://nodejs.org/)
 
 1. **Escolha uma pasta, abra o terminal e clone o repositório:**
    ```bash
