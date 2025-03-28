@@ -42,19 +42,10 @@ amazon-scraper/
 
 2. **Instale as dependências do servidor:**
    ```bash
-   cd backend
-   bun install
-   cd ..
+   npm run install:all
    ```
 
-3. **Instale as dependências do Vite para o frontend:**
-   ```bash
-   cd frontend
-   npm install
-   cd ..
-   ```
-
-4. **Inicie o projeto:**
+3. **Inicie o projeto:**
    ```bash
    npm run start
    ```
