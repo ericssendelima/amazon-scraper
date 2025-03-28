@@ -46,4 +46,4 @@ pids
 # Lock files
 backend/bun.lock
 frontend/package-lock.json
-package-lock.json
+/package-lock.json
