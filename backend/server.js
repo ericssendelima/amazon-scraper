@@ -32,10 +32,8 @@ app.get('/api/scrape', async (req, res) => {
             // Retorna um objeto com os dados do produto
             return { title, rating, reviews, imageUrl };
         }).filter(product => product.title && product.rating && product.reviews && product.imageUrl); // Filtra produtos com dados válidos
-
         res.json({ products }); // Retorna os dados dos produtos em formato JSON
     } catch (error) {
-        console.error('Erro ao coletar dados da Amazon:', error.message); // Loga o erro no console
         res.status(500).json({ error: 'Falha ao coletar dados da Amazon. Por favor, tente novamente mais tarde.' }); // Retorna erro se algo deu errado
     }
 });

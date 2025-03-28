@@ -1,0 +1,10 @@
+{
+  "name": "amazon-scraper",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"cd backend && bun run server.js\" \"cd frontend && npm run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
