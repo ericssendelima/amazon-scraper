@@ -13,27 +13,28 @@ Este projeto é um script simples para coletar listagens de produtos da Amazon n
 
 ```plaintext
 amazon-scraper/
-├── .gitignore
-├── backend/
-│   ├── server.js
-│   ├── package.json
-│   └── ...
-├── frontend/
-│   ├── index.html
-│   ├── package.json
-│   ├── src/
-│   │   ├── assets/
-│   │   │   ├── styles.css
-│   │   │   └── ...
-│   │   ├── main.js
-│   │   └── ...
-├── README.md
-└── ...
+ ├── backend/
+ │   ├── server.js
+ │   ├── package.json
+ │   └── ...
+ ├── frontend/
+ │   ├── package.json
+ │   ├── index.html
+ │   ├── src/
+ │   │   ├── assets/
+ │   │   │   ├── styles.css
+ │   │   │   └── ...
+ │   │   ├── main.js
+ │   │   └── ...
+ ├── .gitignore
+ ├── package.json
+ ├── README.md
+ └── ...
 ```
 
-## 🚀 Configuração
+## 🚀 Configuração para rodar o projeto localmente
 
-1. **Clone o repositório:**
+1. **Escolha uma pasta, abra o terminal e clone o repositório:**
    ```bash
    git clone <URL-do-repositório>
    cd amazon-scraper
@@ -46,20 +47,16 @@ amazon-scraper/
    cd ..
    ```
 
-3. **Inicie o servidor:**
-   ```bash
-   bun run backend/server.js
-   ```
-
-4. **Instale as dependências do Vite para o frontend:**
+3. **Instale as dependências do Vite para o frontend:**
    ```bash
    cd frontend
    npm install
+   cd ..
    ```
 
-5. **Inicie o servidor de desenvolvimento do Vite:**
+4. **Inicie o projeto:**
    ```bash
-   npm run dev
+   npm run start
    ```
 
 6. **Abra o navegador e acesse `http://localhost:5173` (ou a porta que o vite fornecer), para ver o aplicativo em ação.**
@@ -69,6 +66,15 @@ amazon-scraper/
 1. Insira uma palavra-chave no campo de entrada.
 2. Clique no botão "Coletar Dados".
 3. Veja os resultados coletados na página.
+
+## 🛠️ Depuração
+
+Se você encontrar a mensagem de erro "Falha ao coletar dados da Amazon. Por favor, tente novamente mais tarde.", siga os passos abaixo para depurar:
+
+1. **Verifique o log do servidor no terminal onde o backend está rodando.**
+2. **Adicione logs adicionais no código do backend para identificar o problema.**
+3. **Certifique-se de que todas as dependências estão instaladas corretamente.**
+4. **Verifique a conectividade de rede e a disponibilidade da página da Amazon.**
 
 ## 📦 Dependências
 
