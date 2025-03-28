@@ -2,6 +2,7 @@
   "name": "amazon-scraper",
   "version": "1.0.0",
   "scripts": {
+    "install:all": "npm install && cd backend && bun install && cd ../frontend && npm install && cd ..",
     "start": "concurrently \"cd backend && bun run server.js\" \"cd frontend && npm run dev\""
   },
   "devDependencies": {
